@@ -1,12 +1,14 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import Info from "../info"
+import Input from "../input"
 
-class Chat extends React.Component{
+class Chat extends React.Component {
   render() {
-    return(
-      <div>
-        <h1>hello</h1>
-      </div>
-    )
+    return <div className="home">
+      <Info />
+      <Input />
+    </div>;
   }
 }
 

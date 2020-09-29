@@ -6,7 +6,7 @@ import Chat from '../chat'
 export default class main extends Component {
   render() {
     return (
-      <div>
+      <div className='all'>
         {/* <Pageone/>
             <PageTwo/> */}
         <Chat />

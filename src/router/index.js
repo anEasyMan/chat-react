@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import menu from "./menu";
+import '../assets/home.css'
 
 const RouteIndex = () => {
   return (
